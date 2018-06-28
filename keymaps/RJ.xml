@@ -1,4 +1,8 @@
 <keymap version="1" name="RJ" parent="Mac OS X 10.5+">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.NavigateAction">
@@ -13,6 +17,12 @@
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
+  <action id="EditorIndentLineOrSelection">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+  </action>
+  <action id="EditorIndentSelection">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+  </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
@@ -25,7 +35,14 @@
   <action id="EditorTextStartWithSelection">
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
   <action id="IncrementWindowHeight" />
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
