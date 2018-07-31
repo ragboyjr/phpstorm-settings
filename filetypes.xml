@@ -1,8 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="shell" type="Bash" />
-      <mapping pattern="install" type="Bash" />
+      <mapping ext="example" type="XML" />
     </extensionMap>
   </component>
 </application>
