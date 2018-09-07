@@ -1,6 +1,6 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="version" value="2.8.0" />
+    <option name="version" value="2.8.3" />
     <option name="isContrastMode" value="true" />
     <option name="userId" value="517b8c9:1644a5e878c:-8000" />
     <option name="allowDataCollection" value="true" />
