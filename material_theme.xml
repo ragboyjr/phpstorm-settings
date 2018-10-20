@@ -3,7 +3,9 @@
     <option name="version" value="2.8.3" />
     <option name="selectedTheme" value="LIGHTER" />
     <option name="highlightColor" value="80cbc4" />
-    <option name="accentColor" value="FFEB3B" />
+    <option name="accentColor" value="c6ff00" />
+    <option name="statusBarTheme" value="false" />
+    <option name="isMaterialTheme" value="false" />
     <option name="userId" value="517b8c9:1644a5e878c:-8000" />
     <option name="allowDataCollection" value="true" />
     <option name="isHighContrast" value="true" />
