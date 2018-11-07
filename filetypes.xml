@@ -3,7 +3,9 @@
     <extensionMap>
       <mapping pattern="console" type="PHP" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping ext="cron" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
+      <mapping ext="prod" type="PLAIN_TEXT" />
       <mapping ext="example" type="XML" />
     </extensionMap>
   </component>
