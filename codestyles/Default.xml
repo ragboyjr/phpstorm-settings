@@ -1,4 +1,7 @@
 <code_scheme name="Default" version="173">
+  <PHPCodeStyleSettings>
+    <option name="GROUP_USE_WRAP" value="2" />
+  </PHPCodeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
@@ -6,12 +9,16 @@
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
-  <PHPCodeStyleSettings>
-    <option name="GROUP_USE_WRAP" value="2" />
-  </PHPCodeStyleSettings>
   <codeStyleSettings language="PHP">
     <option name="METHOD_BRACE_STYLE" value="1" />
     <option name="INDENT_CASE_FROM_SWITCH" value="false" />
     <option name="WRAP_ON_TYPING" value="0" />
+  </codeStyleSettings>
+  <codeStyleSettings language="TypeScript">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
   </codeStyleSettings>
 </code_scheme>
