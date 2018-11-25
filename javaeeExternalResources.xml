@@ -1,0 +1,5 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="urn:magento:framework:ObjectManager/etc/config.xsd" location="$USER_HOME$/repos/coedition-gitlab/web/magento/vendor/magento/framework/ObjectManager/etc/config.xsd" />
+  </component>
+</application>
