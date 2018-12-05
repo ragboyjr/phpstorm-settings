@@ -17,5 +17,6 @@
     <mask>*.phtml</mask>
     <mask>*.php</mask>
     <mask>*.xml</mask>
+    <mask>*.csv</mask>
   </component>
 </application>
