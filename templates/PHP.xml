@@ -1,0 +1,10 @@
+<templateSet group="PHP">
+  <template name="wth" value="public function with$METHOD$($TYPE$ $$$NAME$): self {&#10;    $self = clone $this;&#10;    $self-&gt;$NAME$ = $$$NAME$;&#10;    return $self;&#10;}$END$" description="wither" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="capitalize(NAME)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
