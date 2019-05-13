@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="pre-commit" type="Bash" />
       <mapping pattern="www.conf" type="Ini" />
       <mapping pattern="supervisord.conf" type="Ini" />
       <mapping pattern="console" type="PHP" />
