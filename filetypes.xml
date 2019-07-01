@@ -1,20 +1,23 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="pre-commit" type="Bash" />
+      <mapping pattern="www.conf" type="Ini" />
+      <mapping pattern="supervisord.conf" type="Ini" />
       <mapping pattern="console" type="PHP" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping ext="cron" type="PLAIN_TEXT" />
-      <mapping ext="dist" type="PLAIN_TEXT" />
-      <mapping ext="prod" type="PLAIN_TEXT" />
+      <mapping ext="sandbox" type="PLAIN_TEXT" />
       <mapping ext="mst" type="PLAIN_TEXT" />
+      <mapping ext="cron" type="PLAIN_TEXT" />
+      <mapping ext="prod" type="PLAIN_TEXT" />
+      <mapping ext="dist" type="PLAIN_TEXT" />
+      <removed_mapping ext="conf" type="SmartyConfig" />
       <mapping pattern="*.xml.dist" type="XML" />
       <mapping ext="example" type="XML" />
       <removed_mapping pattern="phpunit.xml.dist" approved="true" type="XML" />
       <mapping ext="conf" type="htaccess" />
-      <mapping pattern="pre-commit" type="Bash" />
-      <mapping pattern="supervisord.conf" type="Ini" />
-      <mapping pattern="www.conf" type="Ini" />
+      <removed_mapping pattern="phpunit.xml.dist" approved="true" type="XML" />
     </extensionMap>
   </component>
 </application>
