@@ -4,7 +4,13 @@
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="METHOD" expression="capitalize(NAME)" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="csmc" value="const $NAME$ = self::class . '::$NAME$';$END$" description="class static method constant" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
     </context>
   </template>
 </templateSet>
