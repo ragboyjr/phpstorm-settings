@@ -12,11 +12,9 @@
       <mapping ext="cron" type="PLAIN_TEXT" />
       <mapping ext="prod" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
-      <removed_mapping ext="conf" type="SmartyConfig" />
       <mapping pattern="*.xml.dist" type="XML" />
       <mapping ext="example" type="XML" />
       <removed_mapping pattern="phpunit.xml.dist" approved="true" type="XML" />
-      <mapping ext="conf" type="htaccess" />
       <removed_mapping pattern="phpunit.xml.dist" approved="true" type="XML" />
     </extensionMap>
   </component>
