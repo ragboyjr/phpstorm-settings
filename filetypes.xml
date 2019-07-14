@@ -4,6 +4,7 @@
       <mapping pattern="pre-commit" type="Bash" />
       <mapping pattern="www.conf" type="Ini" />
       <mapping pattern="supervisord.conf" type="Ini" />
+      <mapping ext="make" type="Makefile" />
       <mapping pattern="console" type="PHP" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
